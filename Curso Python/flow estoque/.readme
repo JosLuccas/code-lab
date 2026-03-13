@@ -1,0 +1,10 @@
+# ----- Flow Estoque -----
+
+# Projeto, simples de controle de estoque.
+ 
+# Version 0.1
+# - Cadastro simples de produtos
+# - Exibição do produto cadastro
+
+# O que tem no cadastro do produto? Nome, Quantidade, Valor e Descrição.
+# OBS: Até o momento no meu pensamento By - Zé
