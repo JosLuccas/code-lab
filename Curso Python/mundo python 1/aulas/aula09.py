@@ -37,14 +37,41 @@
 # .find()
 # Mostra a posição (índice) da primeira vez que algo aparece na string.
 
-# Exemplo prático:
+# Transformação:
+
+# .replace()
+# Substitui uma palavra ou caractere por outro dentro da string.
+
+# .upper()
+# Transforma todas as letras da string em maiúsculas.
+
+# .lower()
+# Transforma todas as letras da string em minúsculas.
+
+# .capitalize()
+# Deixa apenas a primeira letra da string maiúscula e o resto minúsculo.
+
+# .title()
+# Coloca a primeira letra de cada palavra em maiúscula.
+
+# .strip()
+# Remove os espaços vazios do começo e do final da string.
+
+# .rstrip()
+# Remove os espaços vazios apenas do final da string.
+
+# .lstrip()
+# Remove os espaços vazios apenas do começo da string.
+
+# Exemplos prático:
 
 frase = "Curso em Vídeo Python"
+frase_alternativa = "   Aprenda Python   "
 print(f"Frase para exemplo: {frase}")
 
 print("\nFatiamentos de strings:")
 
-print(frase[9])
+print("\n" + frase[9])
 print(frase[9:14])
 print(frase[9:14:2])
 print(frase[:5])
@@ -52,6 +79,18 @@ print(frase[15:])
 print(frase[9::3])
 
 print("\nAnálise de strings:")
-print(f"Essa frase tem {len(frase)} caracteres")
+
+print("\n" + f"Essa frase tem {len(frase)} caracteres")
 print(f'Essa frase repetiu o caracter "o" {frase.count('o')} vezes')
 print(f'Na frase, a palavra "Python" começa no índice: {frase.find('Python')}')
+
+print("\nTransformção de strings:")
+
+print("\n" + frase.replace("Python", "PHP"))
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
+print(frase_alternativa.strip())
+print(frase_alternativa.rstrip())
+print(frase_alternativa.lstrip())
