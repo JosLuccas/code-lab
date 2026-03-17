@@ -63,11 +63,22 @@
 # .lstrip()
 # Remove os espaços vazios apenas do começo da string.
 
+# Divisão:
+
+# .split()
+# Divide uma string em várias partes e transforma em uma lista.
+
+# Junção:
+
+# .join()
+# Junta elementos de uma lista em uma única string.
+
 # Exemplos prático:
 
 frase = "Curso em Vídeo Python"
 frase_alternativa = "   Aprenda Python   "
 print(f"Frase para exemplo: {frase}")
+print(f"Segunda frase para exemplo: {frase_alternativa}")
 
 print("\nFatiamentos de strings:")
 
@@ -94,3 +105,16 @@ print(frase.title())
 print(frase_alternativa.strip())
 print(frase_alternativa.rstrip())
 print(frase_alternativa.lstrip())
+
+print("\nDivisão de strings:")
+
+div = frase.split()
+
+print("")
+print(div)
+
+print("\nJunção de strings:")
+
+jun = "-".join(frase)
+
+print("\n" + jun)
