@@ -1,7 +1,5 @@
-# Faça um programa que leia uma frase pelo teclado e mostre: 
+# Faça um programa que leia o noem completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
 
-# Quantas vezes aparece a letra "A".
-
-# Em que posição ela aparece a primeira vez.
-
-# Em que posição ela aparece a última vez.
+# Ex: Ana Maria de Souza
+# Primeiro: Ana
+# Último: Souza
