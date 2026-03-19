@@ -30,4 +30,24 @@
     # Retorna o valor de π (pi).
 
     echo pi(); // Resultado: 3.141592...
+
+    # sin()
+    # Calcula o seno de um ângulo (em radianos).
+
+    echo sin(pi()/2); // Resultado: 1
+
+    # cos()
+    # Calcula o cosseno.
+
+    echo cos(0); // Resultado: 1
+
+    # tan()
+    # Calcula a tangente.
+
+    echo tan(pi()/4); // Resultado: 1
+
+    # Funções trigonométricas (sin, cos, tan) usam radianos, não graus.
+    # Se precisar converter:
+
+    echo sin(deg2rad(90)); // Resultado: 1
 ?>
