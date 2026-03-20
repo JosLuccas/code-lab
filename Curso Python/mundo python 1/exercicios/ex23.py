@@ -7,9 +7,14 @@
 # Centena: 8
 # Milhar: 1
 
-num = str(input("Digite um número de 0 a 9999: "))
+num = int(input("Digite um número de 0 a 9999: "))
 
-print (f"\nSua unidade é: {num[0]}")
-print (f"Sua dezena é: {num[1]}")
-print (f"Sua centena é: {num[2]}")
-print (f"Sua milhar é: {num[3]}")
+unidade = num // 1 % 10
+dezena = num // 10 % 10
+centena = num // 100 % 10
+milhar = num // 1000 % 10
+
+print(f"Unidade: {unidade}")
+print(f"Dezena: {dezena}")
+print(f"Centena: {centena}")
+print(f"Milhar: {milhar}")
